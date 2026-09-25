@@ -37,7 +37,7 @@ export default function allTools () {
         style: activeCat === 'all' ? { borderColor: 'var(--brand)', color: 'var(--brand-600)' } : {},
         onclick: () => { activeCat = 'all'; renderChips(); render() }
       }, 'All'),
-      CATEGORIES.map(c => chip(c))
+      ...CATEGORIES.map(c => chip(c))
     )
   }
 
