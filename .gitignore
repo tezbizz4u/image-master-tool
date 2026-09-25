@@ -19,3 +19,6 @@ Thumbs.db
 # Env files (none used, but just in case)
 .env
 .env.*
+
+.vercel
+.env*
